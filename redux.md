@@ -177,25 +177,23 @@ Bowerで入れれるものであればNPMでも入る確率がほぼ150%。
 
 ---
 
-## AltJS
+## Transpiler
 
 .left[
-.red[たぶんTranspilerという概念。]
-
-あたらしい仕様で書かれたJSを、古いJSに変換してくれるツール群を示す。
+.red[あたらしい仕様で書かれたJSを、古いJSに変換してくれるやつ]
 
 これによって新しい書き方で書いたにも関わらず古いブラウザにも対応できるようになってしあわせ。
 
 C言語で書かれたソースをコンパイルするとアセンブラのコードになる感じのやつ。
 
-BabelはAltJSのひとつ。
+BabelもTranspilerのひとつ。
 ]
 
 ---
 
 ## Babel
 
-.left[.red[AltJSのひとつ。]
+.left[.red[Transpilerのひとつ。]
 
 現在の主流。ES6(ES2015)の書き方でJavaScriptを書くことができる。
 
