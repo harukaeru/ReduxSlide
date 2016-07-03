@@ -22,10 +22,13 @@
   <body>
 <textarea id="source">
 <?php
-     $mdFileName = "redux.md";
-     if(file_exists($mdFileName)){
-       echo file_get_contents($mdFileName);
-     }
+    $mdFileName = "redux.md";
+    if ($argv[1]) {
+        $mdFileName = $argv[1];
+    }
+    if(file_exists($mdFileName)){
+      echo file_get_contents($mdFileName);
+    }
 ?>
 </textarea>
     <script src="remark-latest.min.js">
