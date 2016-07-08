@@ -33,6 +33,8 @@ Reactは関係ありません！！
 ReactとReduxは本来まったく違うものなので、使うときはreact-reduxというインターフェースをインストールして使う
 
 この中に入っているProviderというReactコンポーネント, connectという関数を使って、ReactとReduxを結びつけて使っている
+
+.red[Reactの話は以上で終わりです。]
 ]
 
 ---
